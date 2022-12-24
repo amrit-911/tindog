@@ -1,0 +1,171 @@
+body {
+    font-family: "Montserrat";
+}
+
+#title {
+    background-color: #ff4c68;
+    color: white;
+}
+
+.navbar {
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+    color: white;
+    font-family: "ubuntu";
+    font-size: 2.5rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    color: white;
+}
+
+h1 {
+    font-family: "Montserrat";
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+
+.btn-download {
+    margin: 0 5% 0 0;
+}
+
+.div-image {
+    position: absolute;
+    right: 18%;
+    bottom: 3%;
+}
+
+.title-img {
+    margin-top: 20px;
+    width: 70%;
+    transform: rotate(25deg);
+}
+
+.features i {
+    font-size: 50px;
+    color: #ef8172;
+}
+
+.features i:hover {
+    font-size: 50px;
+    color: #ff4c68;
+}
+
+.features {
+    text-align: center;
+    color: #8f8f8f;
+    font-size: 20px;
+}
+
+#features {
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+}
+
+h3 {
+    font-size: 25px;
+    font-family: "Montserrat";
+    font-weight: 900;
+    color: black;
+}
+
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+}
+
+h2 {
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonials-img {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+#press img {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+#pricing {
+    margin: 20px 10%;
+    text-align: center;
+    padding: 100px;
+}
+
+.card-price {
+    text-align: center;
+}
+
+.price-card {
+    padding: 3% 2%;
+}
+
+#cta {
+    background-color: #ff4c68;
+    color: white;
+    padding: 7% 18%;
+    text-align: center;
+    font-family: "Montserrat";
+    font-weight: bold;
+}
+
+#cta h3 {
+    color: white;
+    font-size: 45px
+}
+
+#footer {
+    text-align: center;
+}
+
+@media(max-width: 1028px) {
+    .div-image {
+        position: static;
+    }
+    .title-img {
+        position: static;
+        transform: rotate(0);
+    }
+    #title {
+        text-align: center;
+    }
+    .features i {
+        font-size: 90px;
+        color: #ef8172;
+    }
+    .features {
+        text-align: center;
+        color: #8f8f8f;
+        font-size: 40px;
+    }
+}
